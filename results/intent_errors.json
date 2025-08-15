@@ -1,0 +1,18 @@
+[
+  {
+    "text": "What are the KCET and COMED-K cutoff ranks for Electronics and Communication Engineering?",
+    "intent": "ece_admission_process",
+    "intent_prediction": {
+      "name": "electronics_communication_engineering_admission",
+      "confidence": 0.44228610396385193
+    }
+  },
+  {
+    "text": "Where is Sahyadri College located?",
+    "intent": "campus_description",
+    "intent_prediction": {
+      "name": "college_location",
+      "confidence": 0.6193925738334656
+    }
+  }
+]

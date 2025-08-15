@@ -1,0 +1,5 @@
+rasa==3.6.20
+rasa-sdk==3.6.2
+gunicorn
+numpy<2
+scipy<1.11

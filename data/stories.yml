@@ -1,0 +1,397 @@
+version: "3.1"
+stories:
+  - story: Admission Process Queries
+    steps:
+      - intent: admission_requirements
+      - action: utter_admission_requirements
+
+  - story: CSE Admission Process
+    steps:
+      - intent: cse_admission_process
+      - action: utter_cse_admission_process
+
+  - story: AIML Admission Process
+    steps:
+      - intent: aiml_admission_process
+      - action: utter_aiml_admission_process
+
+  - story: Mech Robotics Admission Process
+    steps:
+      - intent: mech_robotics_admission_process
+      - action: utter_mech_robotics_admission_process
+
+  - story: ECE Admission Process
+    steps:
+      - intent: ece_admission_process
+      - action: utter_ece_admission_process
+
+  - story: DS Admission Process
+    steps:
+      - intent: ise_ds_admission_process
+      - action: utter_ise_ds_admission_process
+
+  - story: Fees and Quota Queries
+    steps:
+      - intent: management_quota_fees
+      - action: utter_management_quota_fees
+      - intent: nri_fees
+      - action: utter_nri_fees
+
+  - story: Document and Process Queries
+    steps:
+      - intent: required_documents
+      - action: utter_required_documents
+      - intent: cet_admission_process
+      - action: utter_cet_admission_process
+
+  - story: User asks about Skill Learning Initiatives
+    steps:
+      - intent: skill_learning
+      - action: utter_skill_learning
+      
+  - story: User asks about Scholarships
+    steps:
+      - intent: scholarships
+      - action: utter_scholarships
+
+  - story: User asks about College Principal
+    steps:
+      - intent: college_principal
+      - action: utter_college_principal
+
+  - story: Comed-K Admission Process
+    steps:
+      - intent: comedk_admission_process
+      - action: utter_comedk_admission_process
+
+  - story: College Location Information
+    steps:
+      - intent: college_location
+      - action: utter_college_location
+
+  - story: Industry Collaborations Information
+    steps:
+      - intent: industry_collaborations
+      - action: utter_industry_collaborations
+
+  - story: Extracurricular Activities Information
+    steps:
+      - intent: extracurricular_activities
+      - action: utter_extracurricular_activities
+
+  - story: Admission Process Information
+    steps:
+      - intent: admission_process
+      - action: utter_admission_process
+
+  - story: Infrastructure Information
+    steps:
+      - intent: infrastructure
+      - action: utter_infrastructure
+
+  - story: Placement Information
+    steps:
+      - intent: placement
+      - action: utter_placement
+
+  - story: Research Information
+    steps:
+      - intent: research
+      - action: utter_research
+
+  - story: Achievements Information
+    steps:
+      - intent: achievements
+      - action: utter_achievements
+
+  - story: Library Overview Information
+    steps:
+      - intent: library_overview
+      - action: utter_library_overview
+
+  - story: User asks about library timings
+    steps:
+      - intent: ask_library_timings
+      - action: utter_ask_library_timings
+
+  - story: User asks for VTU syllabus
+    steps:
+      - intent: ask_vtu_syllabus
+      - action: utter_ask_vtu_syllabus
+
+  - story: User asks for VTU question papers
+    steps:
+      - intent: ask_vtu_question_paper
+      - action: utter_ask_vtu_question_paper
+
+  - story: User asks about hostel facilities
+    steps:
+      - intent: ask_hostel_facilities
+      - action: utter_ask_hostel_facilities
+
+  - story: user asks about hostel rules
+    steps:
+      - intent: hostel_rules_and_regulations
+      - action: utter_hostel_rules_and_regulations
+
+  - story: user asks about hostel timings
+    steps:
+      - intent: hostel_timings
+      - action: utter_hostel_timings
+
+  - story: user asks about fee structure
+    steps:
+      - intent: fee_structure
+      - action: utter_fee_structure
+
+  - story: user asks about food options
+    steps:
+      - intent: food_options
+      - action: utter_food_options
+
+  - story: user asks about Mech-Tech Garage
+    steps:
+      - intent: mech_tech_garage
+      - action: utter_mech_tech_garage
+
+  - story: user asks about gym facilities
+    steps:
+      - intent: gym_facilities
+      - action: utter_gym_facilities
+
+  - story: user asks about bus service
+    steps:
+      - intent: bus_service
+      - action: utter_bus_service
+
+  - story: user asks about bus service rules
+    steps:
+      - intent: bus_service_rules
+      - action: utter_bus_service_rules
+
+  - story: user asks about bus service changes
+    steps:
+      - intent: bus_service_changes
+      - action: utter_bus_service_changes
+
+  - story: user asks about bus service refund
+    steps:
+      - intent: bus_service_refund
+      - action: utter_bus_service_refund
+
+  - story: user asks about undergraduate courses
+    steps:
+      - intent: undergraduate_courses
+      - action: utter_undergraduate_courses
+
+  - story: user asks about campus description
+    steps:
+      - intent: campus_description
+      - action: utter_campus_description
+
+  - story: user asks about placement process
+    steps:
+      - intent: placement_process
+      - action: utter_placement_process
+
+  - story: user asks about contact placement department
+    steps:
+      - intent: contact_placement_department
+      - action: utter_contact_placement_department
+
+  - story: user asks about placement facilities
+    steps:
+      - intent: placement_facilities
+      - action: utter_placement_facilities
+
+  - story: user asks about placement training
+    steps:
+      - intent: placement_training
+      - action: utter_placement_training
+
+  - story: user asks about internship opportunities
+    steps:
+      - intent: internship_opportunities
+      - action: utter_internship_opportunities
+
+  - story: user asks about MBA entrance exam
+    steps:
+      - intent: mba_entrance_exam
+      - action: utter_mba_entrance_exam
+
+  - story: user asks about faculty information
+    steps:
+      - intent: faculty_information
+      - action: utter_faculty_information
+
+  - story: user asks about college ranking
+    steps:
+      - intent: college_ranking
+      - action: utter_college_ranking
+
+  - story: user asks about engineering placements
+    steps:
+      - intent: engineering_placements
+      - action: utter_engineering_placements
+
+  - story: user asks about MBA duration
+    steps:
+      - intent: mba_duration
+      - action: utter_mba_duration
+
+  - story: user asks about lateral entry admission
+    steps:
+      - intent: lateral_entry_admission
+      - action: utter_lateral_entry_admission
+
+  - story: user asks about research opportunities
+    steps:
+      - intent: research_opportunities
+      - action: utter_research_opportunities
+
+  - story: user asks about scholarship application process
+    steps:
+      - intent: scholarship_application_process
+      - action: utter_scholarship_application_process
+
+  - story: user asks about Wi-Fi facilities
+    steps:
+      - intent: wifi_facilities
+      - action: utter_wifi_facilities
+
+  - story: user asks about alumni association
+    steps:
+      - intent: alumni_association
+      - action: utter_alumni_association
+
+  - story: user asks about medical facilities
+    steps:
+      - intent: medical_facilities
+      - action: utter_medical_facilities
+
+  - story: user asks about engineering fee structure
+    steps:
+      - intent: engineering_fee_structure
+      - action: utter_engineering_fee_structure
+
+  - story: user greets the bot
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user asks how the bot is
+    steps:
+      - intent: how_are_you
+      - action: utter_how_are_you
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user asks about bot developer
+    steps:
+      - intent: bot_developer_info
+      - action: utter_bot_developer_info
+
+  - story: user asks about bot name
+    steps:
+      - intent: bot_name
+      - action: utter_bot_name
+
+  - story: user asks about student clubs
+    steps:
+      - intent: student_clubs
+      - action: utter_student_clubs
+
+  - story: user asks about SOSC club
+    steps:
+      - intent: sosc_club
+      - action: utter_sosc_club
+
+  - story: user asks about Nihongo club
+    steps:
+      - intent: nihongo_club
+      - action: utter_nihongo_club
+
+  - story: user asks about hostel accommodation
+    steps:
+      - intent: accommodation
+      - action: utter_accommodation
+
+  - story: user asks about attendance policy
+    steps:
+      - intent: attendance_policy
+      - action: utter_attendance_policy
+
+  - story: user asks about safety
+    steps:
+      - intent: safety
+      - action: utter_safety
+
+  - story: user asks about funding opportunities
+    steps:
+      - intent: funding
+      - action: utter_funding
+
+  - story: Contact Placement Department
+    steps:
+      - intent: contact_placement_department
+      - action: utter_contact_placement_department
+
+  - story: Placement Facilities
+    steps:
+      - intent: placement_facilities
+      - action: utter_placement_facilities
+
+  - story: Placement Training
+    steps:
+      - intent: placement_training
+      - action: utter_placement_training
+
+  - story: Internships
+    steps:
+      - intent: internships
+      - action: utter_internships
+
+  - story: Career Guidance
+    steps:
+      - intent: career_guidance
+      - action: utter_career_guidance
+
+  - story: Pre-Placement Talks
+    steps:
+      - intent: pre_placement_talks
+      - action: utter_pre_placement_talks
+
+  - story: Handle Engineering Courses
+    steps:
+      - intent: engineering_courses
+      - action: utter_engineering_courses
+
+  - story: Mechanical Engineering Admission
+    steps:
+      - intent: mechanical_engineering_admission
+      - action: utter_mechanical_engineering_admission
+
+  - story: Information Science Engineering Admission
+    steps:
+      - intent: information_science_engineering_admission
+      - action: utter_information_science_engineering_admission
+
+  - story: Electronics Communication Engineering Admission
+    steps:
+      - intent: electronics_communication_engineering_admission
+      - action: utter_electronics_communication_engineering_admission
+
+  - story: CET Score Requirement
+    steps:
+      - intent: cet_score_requirement
+      - action: utter_cet_score_requirement
+
+  - story: MBA Placement Query Story
+    steps:
+      - intent: mba_placement
+      - action: utter_mba_placement
+
+  

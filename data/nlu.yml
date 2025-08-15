@@ -1,0 +1,614 @@
+version: "3.1"
+nlu:
+  - intent: admission_requirements
+    examples: |
+      - What are the admission requirements?
+      - Can you tell me the admission criteria?
+      - What do I need to get admitted?
+      - Admission requirements?
+      - Please list admission requirements.
+
+  - intent: cse_admission_process
+    examples: |
+      - What is the admission process for Computer Science Engineering at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Computer Science Engineering?
+      - How can I get admission into Computer Science Engineering at Sahyadri?
+      - What are the eligibility criteria for admission to Computer Science Engineering?
+
+  - intent: aiml_admission_process
+    examples: |
+      - What is the admission process for Artificial Intelligence and Machine Learning at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Artificial Intelligence and Machine Learning?
+      - How can I get admission into Artificial Intelligence and Machine Learning at Sahyadri?
+      - What are the eligibility criteria for admission to the AIML branch at Sahyadri?
+
+  - intent: mech_robotics_admission_process
+    examples: |
+      - What is the admission process for Mechanical & Robotics at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Mechanical & Robotics?
+      - How can I get admission into Mechanical & Robotics at Sahyadri?
+      - What are the eligibility criteria for admission to the Mechanical & Robotics branch?
+
+  - intent: ece_admission_process
+    examples: |
+      - What is the admission process for Electronics and Communication Engineering at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Electronics and Communication Engineering?
+      - How can I get admission into Electronics and Communication Engineering at Sahyadri?
+      - What are the eligibility criteria for admission to the ECE branch?
+
+  - intent: ise_ds_admission_process
+    examples: |
+      - What is the admission process for Information Science and Engineering at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Information Science and Engineering?
+      - How can I get admission into Information Science and Engineering at Sahyadri?
+      - What are the eligibility criteria for admission to the Information Science and Engineering branch?
+      - What is the admission process for Data Science at Sahyadri?
+      - What are the KCET and COMED-K cutoff ranks for Data Science?
+      - How can I get admission into Data Science at Sahyadri?
+      - What are the eligibility criteria for admission to the Data Science branch?
+
+  - intent: management_quota_fees
+    examples: |
+      - What are the fees for management quota?
+      - Can you tell me the fees for management seats?
+      - Management seat fees?
+      - What is the tuition fee for management admission?
+      - Please provide management quota fees details.
+
+  - intent: cet_admission_process
+    examples: |
+      - What is the admission process through CET?
+      - Can you explain CET admission?
+      - How does CET admission work?
+      - CET admission procedure?
+      - Steps for admission through CET?
+
+  - intent: comedk_admission_process
+    examples: |
+      - What is the admission process through Comed-K?
+      - Can you explain Comed-K admission?
+      - How does Comed-K admission work?
+      - Comed-K admission procedure?
+      - Steps for admission through Comed-K?
+
+  - intent: required_documents
+    examples: |
+      - What documents are required for admission?
+      - Can you list the documents needed for admission?
+      - Documents needed for CET admission?
+      - What should I bring for Comed-K admission?
+      - Documents for management admission?
+
+  - intent: nri_fees
+    examples: |
+      - What are the fee details for NRI students?
+      - Can you tell me the NRI fees?
+      - NRI student fee structure?
+      - How much is the tuition for NRI students?
+      - Please provide NRI fee details.
+
+  - intent: scholarships
+    examples: |
+      - What scholarships are available?
+      - Can you explain the scholarships?
+      - Are there any scholarships for economically backward students?
+      - Scholarship details?
+      - What financial aid is offered?
+
+  - intent: college_principal
+    examples: |
+      - Who is the Principal of the college?
+      - Can you tell me the name of the Principal?
+      - Who holds the position of Principal?
+      - Principal of the college?
+      - Please provide the name of the Principal.
+
+
+
+  - intent: skill_learning
+    examples: |
+      - What are the skill-focused learning initiatives at Sahyadri?
+      - Can you tell me about the skill development programs at Sahyadri?
+      - What facilities are available for skill development at Sahyadri?
+      - How does Sahyadri support skill development?
+      - Tell me about the skill-focused learning opportunities at Sahyadri.
+
+
+
+  - intent: college_courses
+    examples: |
+      - What courses are offered at Sahyadri College?
+      - What programs does Sahyadri College offer?
+      - Can you tell me about the courses at Sahyadri College?
+      - What are the courses available at Sahyadri College of Engineering & Management?
+      - What degrees can I pursue at Sahyadri College?
+      - Does Sahyadri College offer postgraduate programs?
+      - What is the intake capacity for B.E. courses at Sahyadri College?
+      - Are research programs available at Sahyadri College?
+      - Can I study M.Tech at Sahyadri College?
+      - Is there an MBA program offered by Sahyadri College?
+
+
+  - intent: college_location
+    examples: |
+      - Where is Sahyadri College located?
+      - Can you tell me the location of Sahyadri College?
+      - Where is Sahyadri College of Engineering & Management situated?
+      - What is the campus address of Sahyadri College?
+      - Tell me about the campus location of Sahyadri College.
+
+
+  - intent: industry_collaborations
+    examples: |
+      - What industry collaborations does Sahyadri College have?
+      - Can you tell me about the industry partnerships at Sahyadri College?
+      - Does Sahyadri College collaborate with any companies or industries?
+      - What are the industrial connections of Sahyadri College?
+      - Tell me about Sahyadri College's corporate collaborations.
+
+  - intent: extracurricular_activities
+    examples: |
+      - What are the extracurricular activities at Sahyadri College?
+      - Can you tell me about the student activities at Sahyadri College?
+      - What extracurricular events does Sahyadri College organize?
+      - Does Sahyadri College offer sports and cultural activities?
+      - Tell me about the extracurricular opportunities at Sahyadri College.
+
+  - intent: admission_process
+    examples: |
+      - What is the admission process for Sahyadri College?
+      - Can you tell me how to apply to Sahyadri College?
+      - What are the eligibility requirements for admission to Sahyadri College?
+      - How do I get admission to Sahyadri College?
+      - What is the procedure for applying to Sahyadri College of Engineering & Management?
+
+  - intent: infrastructure
+    examples: |
+      - What are the infrastructure facilities at Sahyadri College?
+      - Can you tell me about the campus infrastructure at Sahyadri College?
+      - What facilities are available at Sahyadri College of Engineering & Management?
+      - Does Sahyadri College have modern infrastructure?
+      - Tell me about the amenities and infrastructure of Sahyadri College.
+
+  - intent: placement
+    examples: |
+      - How is the placement at Sahyadri College?
+      - What is the placement record at Sahyadri College?
+      - Can you tell me about the placement opportunities at Sahyadri College?
+      - Does Sahyadri College offer good placement opportunities?
+      - What companies recruit from Sahyadri College?
+
+  - intent: research
+    examples: |
+      - Can you tell me about the research activities at Sahyadri College?
+      - What research programs are offered at Sahyadri College?
+      - Does Sahyadri College promote research activities?
+      - What are the research opportunities at Sahyadri College of Engineering & Management?
+      - Tell me about the research environment at Sahyadri College.
+
+  - intent: achievements
+    examples: |
+      - What are the notable achievements of Sahyadri College?
+      - Can you tell me about the achievements of Sahyadri College?
+      - What is Sahyadri College known for?
+      - Tell me about the major accomplishments of Sahyadri College.
+      - What are the top achievements of Sahyadri College?
+
+  - intent: library_overview
+    examples: |
+      - Can you tell me about the library?
+      - What is the library like at your college?
+      - Tell me about the library facilities in your institution?
+      - How is the library equipped?
+      - What services does the library provide?
+
+  - intent: ask_library_timings
+    examples: |
+      - What are the timings of the library?
+      - When is the library open?
+      - Can you tell me the library hours?
+      - What are the working hours of the library?
+      - What is the library schedule?
+
+  - intent: ask_vtu_syllabus
+    examples: |
+      - Can I access the VTU syllabus from the library?
+      - Where can I find the VTU syllabus?
+      - Is the VTU syllabus available through the library?
+
+  - intent: ask_vtu_question_paper
+    examples: |
+      - Where can I find VTU question papers?
+      - Are the VTU question papers available in the library?
+      - Can I access VTU question papers online?
+
+  - intent: ask_hostel_facilities
+    examples: |
+      - Tell me about the hostel facilities at your college?
+      - What is the hostel like in your institution?
+      - Can you describe the hostel amenities?
+      - How is the hostel equipped?
+      - Does this college provide hostel facilities?
+      - I wanted to know about hostel facilities.
+      - Is there any hostel?
+
+  - intent: hostel_rules_and_regulations
+    examples: |
+      - What are the rules and regulations for the hostel?
+      - Can you tell me about the hostel's rules?
+      - What are the guidelines for staying in the hostel?
+
+  - intent: hostel_timings
+    examples: |
+      - What are the hostel timings?
+      - Can you share the hostel's operating hours?
+      - What are the check-in and check-out times for the hostel?
+
+
+  - intent: fee_structure
+    examples: |
+      - How much does the hostel cost?
+      - What is the fee structure for the hostel?
+      - What are the hostel charges?
+
+  - intent: food_options
+    examples: |
+      - What food options do you have?
+      - Tell me about food on campus.
+      - Is there a canteen on campus?
+
+  - intent: mech_tech_garage
+    examples: |
+      - What is the Mech-Tech Garage?
+      - Tell me about the mechanical engineering lab.
+      - What facilities does the Mech-Tech Garage offer?
+
+  - intent: gym_facilities
+    examples: |
+      - What fitness facilities are available on campus?
+      - Is there a gym on campus?
+      - Tell me about the gym facilities at Sahyadri?
+
+  - intent: bus_service
+    examples: |
+      - Tell me about the bus service at Sahyadri.
+      - How does the bus service work for students?
+      - What transportation options are available for students?
+
+  - intent: bus_service_rules
+    examples: |
+      - What are the rules for using the bus service?
+      - Can students reserve seats on the bus?
+      - Are there any rules for traveling on the bus?
+
+  - intent: bus_service_changes
+    examples: |
+      - What happens if a student changes their pick-up point?
+      - Can a student change their bus route during the semester?
+
+  - intent: bus_service_refund
+    examples: |
+      - Can I get a refund if I stop using the bus service?
+      - What if I don't use the bus service for part of the semester?
+
+  - intent: undergraduate_courses
+    examples: |
+      - What undergraduate courses are offered at Sahyadri College?
+      - Can you tell me about the Bachelor of Engineering courses at Sahyadri?
+      - What engineering programs are available for undergraduates?
+
+  - intent: campus_description
+    examples: |
+      - What is the campus of Sahyadri College like?
+      - Can you describe the campus of Sahyadri College?
+      - Where is Sahyadri College located?
+
+  - intent: placement_process
+    examples: |
+      - How does the placement process work at Sahyadri College?
+      - What is the average package offered in placements at Sahyadri?
+      - What companies visit Sahyadri College for placements?
+
+  - intent: placement_facilities
+    examples: |
+      - What are the placement facilities at Sahyadri College?
+      - What resources are available for placement training at Sahyadri College?
+      - What facilities are available for engineering placements at Sahyadri?
+      - Does the college provide infrastructure for placement activities?
+      - What resources are available for placement tests and interviews?
+      - Is there a dedicated space for group discussions and interviews?
+
+  - intent: internship_opportunities
+    examples: |
+      - Are internships offered at Sahyadri College?
+      - What companies provide internship opportunities for Sahyadri students?
+      - Can you tell me about internship programs at Sahyadri?
+      - Does Sahyadri offer internships?
+      - What internships are available for students?
+
+  - intent: mba_entrance_exam
+    examples: |
+      - Is there an entrance exam for MBA?
+      - Can you tell me if I need to appear for an entrance exam for MBA?
+      - Is an entrance test required for the MBA program?
+      - MBA entrance exam?
+      - Please provide information on MBA entrance exams.
+
+  - intent: faculty_information
+    examples: |
+      - Can you tell me about the faculty members?
+      - Who are the professors in the engineering department?
+      - Tell me about the MBA faculty.
+      - Faculty information?
+      - Please provide information about the teaching staff.
+
+  - intent: college_ranking
+    examples: |
+      - What is the college's ranking?
+      - Can you tell me the national or state ranking of the college?
+      - How is Sahyadri College ranked?
+      - College rankings?
+      - Please provide information on the college's ranking.
+
+  - intent: engineering_placements
+    examples: |
+      - What is the placement record of the BE program?
+      - Can you tell me about the Engineering program's placements?
+      - What companies hire Engineering graduates from Sahyadri?
+      - Engineering placement details?
+      - Please provide information about Engineering placements.
+
+  - intent: mba_duration
+    examples: |
+      - What is the duration of the MBA course?
+      - How long is the MBA program?
+      - What is the course duration for MBA?
+      - Duration of MBA course?
+      - Please provide the duration of the MBA program.
+
+  - intent: lateral_entry_admission
+    examples: |
+      - What is the admission procedure for lateral entry students in engineering?
+      - Can lateral entry students apply for engineering programs?
+      - How can lateral entry students join the engineering course?
+      - Lateral entry admission procedure?
+      - Please provide information on lateral entry admission.
+
+  - intent: research_opportunities
+    examples: |
+      - Does the college offer any research opportunities?
+      - Can you tell me about the research programs?
+      - Are there research programs at Sahyadri?
+      - What research opportunities are available for students?
+      - Please provide information about research at the college.
+
+  - intent: scholarship_application_process
+    examples: |
+      - How do I apply for a scholarship?
+      - Can you tell me the process to apply for a scholarship?
+      - What is the procedure for applying for scholarships?
+      - Scholarship application process?
+      - Please provide details on how to apply for scholarships.
+
+  - intent: wifi_facilities
+    examples: |
+      - Does the college have a Wi-Fi facility?
+      - Can you tell me about the internet facilities on campus?
+      - Is Wi-Fi available on the campus?
+      - Does Sahyadri provide internet access?
+      - Please provide information on Wi-Fi facilities.
+
+  - intent: alumni_association
+    examples: |
+      - Does the college have an alumni association?
+      - Can you tell me about the alumni network?
+      - Is there an alumni organization at Sahyadri?
+      - What is the role of the alumni association?
+      - Please provide information about the alumni network.
+
+  - intent: medical_facilities
+    examples: |
+      - Is there a medical facility on campus?
+      - Can you tell me about the medical facilities?
+      - Does the college have a clinic?
+      - Are there health services available?
+      - Please provide details about medical facilities on campus.
+
+  - intent: engineering_fee_structure
+    examples: |
+      - What is the fee structure for engineering courses?
+      - Can you tell me the fee details for engineering programs?
+      - What is the tuition fee for B.E. courses?
+      - Fee structure for engineering students?
+      - Please provide details on the engineering course fees.
+
+  - intent: greet
+    examples: |
+      - Hii
+      - Hellooo
+      - Good Afternoon
+      - Hi
+      - Hello
+      - Hey
+      - Greetings
+      - Good morning
+
+  - intent: how_are_you
+    examples: |
+      - How are you?
+      - How's it going?
+      - How are you doing?
+      - How are you today?
+      - What's up?
+
+  - intent: goodbye
+    examples: |
+      - Thankyou
+      - thank you
+      - Goodbye
+      - Bye
+      - See you later
+      - Bye bye
+
+  - intent: bot_developer_info
+    examples: |
+      - Who built you?
+      - Who created you?
+      - Who is your creator?
+      - Who developed you?
+      - What technology powers you?
+
+  - intent: bot_name
+    examples: |
+      - What is your name?
+      - Who are you?
+      - Can you tell me your name?
+      - What should I call you?
+      - How should I address you?
+
+  - intent: student_clubs
+    examples: |
+      - What clubs are available for students at Sahyadri?
+      - Can you tell me about the extracurricular activities on campus?
+      - What student organizations can I join?
+      - Are there any technical clubs at Sahyadri?
+      - What clubs focus on arts and creativity at Sahyadri?
+      - Is there a club for language enthusiasts?
+      - What activities do the student clubs organize?
+      - How can I join a student club at Sahyadri?
+      - Are there leadership or innovation-focused clubs?
+      - What clubs promote cultural or technical exchanges?
+
+  - intent: sosc_club
+    examples: |
+      - Oh, what does SOSC do?
+      - What is the purpose of SOSC?
+      - Tell me more about the Open Source Club?
+      - What are the activities in SOSC?
+      - What does SOSC focus on?
+
+  - intent: nihongo_club
+    examples: |
+      - What about the Nihongo Club?
+      - What is the Sahyadri Nihongo Club about?
+      - Activities in Nihongo Club?
+      - How do I join the Japanese club?
+
+  - intent: accommodation
+    examples: |
+      - What are the hostel facilities like?
+      - Do you have on-campus accommodation?
+      - Hostel options?
+      - Is there a hostel?
+      - Accommodation facilities at the college?
+
+  - intent: attendance_policy
+    examples: |
+      - What is the attendance policy?
+      - How many classes can I miss?
+      - What is the minimum attendance required?
+      - Attendance rules for students?
+      - What happens if I don't meet attendance criteria?
+
+  - intent: safety
+    examples: |
+      - What safety measures are in place on campus?
+      - Is the campus safe for students?
+      - Security arrangements at Sahyadri?
+      - How do you ensure student safety?
+      - Are there CCTV cameras on campus?
+
+  - intent: funding
+    examples: |
+      - How are projects funded at the college?
+      - Can I get funding for my project?
+      - Are student projects supported financially?
+      - Funding options for research projects?
+      - Does Sahyadri offer grants for projects?
+
+  - intent: contact_placement_department
+    examples: |
+      - Who is the contact person for engineering placements?
+      - How do I get in touch with the engineering placement office?
+      - What is the email address of the placement department for engineering?
+      - Can I call the placement office? If yes, what is the contact number?
+
+  - intent: placement_training
+    examples: |
+      - What training programs are offered for engineering placements?
+      - Are there any workshops for engineering students to improve placement skills?
+      - Does Sahyadri provide aptitude training for engineering placements?
+      - What soft skills training is available for engineering students?
+      - What training programs are offered to students for placements at Sahyadri?
+      - Does Sahyadri College provide any value-added courses for placement preparation?
+
+  - intent: internships
+    examples: |
+      - Are there internship opportunities for engineering students at Sahyadri?
+      - Does Sahyadri assist engineering students in finding internships?
+      - What kind of internships are available for engineering students?
+      - Which companies offer internships to engineering students?
+
+  - intent: career_guidance
+    examples: |
+      - What support does Sahyadri provide to engineering students for career guidance?
+      - Are there career counseling services for engineering students?
+      - How does the placement cell help engineering students with career planning?
+      - What kind of career advice is provided to engineering students?
+
+  - intent: pre_placement_talks
+    examples: |
+      - Does Sahyadri organize pre-placement talks for engineering students?
+      - What are pre-placement talks, and how do they help engineering students?
+      - Do companies conduct pre-placement sessions at Sahyadri?
+      - What topics are covered in pre-placement talks?
+
+  - intent: "engineering_courses"
+    examples: |
+      - "The college offers various engineering programs, including Mechanical Engineering, Information Science & Engineering, Electronics & Communication Engineering, and Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning."
+      - "What engineering courses are available at the college?"
+      - "Tell me about the engineering programs offered."
+      - "Does the college offer AI & ML in engineering?"
+      - "What kind of engineering courses do you offer?"
+      - "Can you list the engineering programs available?"
+      - "Are there any specialized engineering degrees?"
+      - "What engineering degrees does the college offer?"
+      - "Is Computer Science available with AI specialization?"
+      - "Do you offer Artificial Intelligence in engineering?"
+
+  - intent: mechanical_engineering_admission
+    examples: |
+      - What is the KCET cutoff for Mechanical Engineering at Sahyadri?
+      - How do I apply for Mechanical Engineering at Sahyadri?
+      - What are the COMED-K cutoff ranks for Mechanical Engineering?
+      - Can I get admission to Mechanical Engineering with a low rank?
+
+  - intent: information_science_engineering_admission
+    examples: |
+      - What are the KCET and COMED-K cutoffs for Information Science Engineering at Sahyadri?
+      - How can I get admission to Information Science Engineering in Sahyadri?
+      - What is the eligibility for Information Science Engineering admission at Sahyadri?
+      - Does Sahyadri have a separate cutoff for Information Science Engineering?
+
+  - intent: electronics_communication_engineering_admission
+    examples: |
+      - What are the KCET and COMED-K cutoffs for Electronics and Communication Engineering?
+      - Can I get admission to Electronics and Communication Engineering with a COMED-K rank of 5000?
+      - What is the eligibility for admission to Electronics and Communication Engineering?
+      - What is the admission procedure for Electronics and Communication Engineering?
+
+  - intent: cet_score_requirement
+    examples: |
+      - What is the minimum CET score required for admission?
+      - Can you tell me the cutoff for CET?
+      - What is the CET score requirement?
+      - CET cutoff for admission?
+      - Please provide information on CET score requirements.
+
+  - intent: mba_placement
+    examples: |
+      - Tell me about MBA placements at Sahyadri College.
+      - What companies come for MBA placements in Sahyadri?
+      - What is the highest salary package for MBA students at Sahyadri College?
+      - Can you share the average salary for MBA graduates?
+      - What are the key recruiters for MBA students?

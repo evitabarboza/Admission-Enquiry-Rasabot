@@ -1,0 +1,418 @@
+version: "3.1"
+rules:
+  - rule: User asks about admission requirements
+    steps:
+      - intent: admission_requirements
+      - action: utter_admission_requirements
+
+  - rule: User asks about CSE admission process
+    steps:
+      - intent: cse_admission_process
+      - action: utter_cse_admission_process
+
+  - rule: User asks about AIML admission process
+    steps:
+      - intent: aiml_admission_process
+      - action: utter_aiml_admission_process
+
+  - rule: User asks about Mech Robotics admission process
+    steps:
+      - intent: mech_robotics_admission_process
+      - action: utter_mech_robotics_admission_process
+
+  - rule: User asks about ECE admission process
+    steps:
+      - intent: ece_admission_process
+      - action: utter_ece_admission_process
+
+  - rule: User asks about ISE & DS admission process
+    steps:
+      - intent: ise_ds_admission_process
+      - action: utter_ise_ds_admission_process
+
+  - rule: User asks about management quota fees
+    steps:
+      - intent: management_quota_fees
+      - action: utter_management_quota_fees
+
+  - rule: User asks about CET admission process
+    steps:
+      - intent: cet_admission_process
+      - action: utter_cet_admission_process
+
+  - rule: User asks about Comed-K admission process
+    steps:
+      - intent: comedk_admission_process
+      - action: utter_comedk_admission_process
+
+  - rule: User asks about required documents
+    steps:
+      - intent: required_documents
+      - action: utter_required_documents
+
+  - rule: User asks about NRI fees
+    steps:
+      - intent: nri_fees
+      - action: utter_nri_fees
+
+  - rule: User asks about scholarships
+    steps:
+      - intent: scholarships
+      - action: utter_scholarships
+
+  - rule: User asks about college principal
+    steps:
+      - intent: college_principal
+      - action: utter_college_principal
+
+
+  - rule: User asks about skill learning initiatives
+    steps:
+      - intent: skill_learning
+      - action: utter_skill_learning
+
+
+  - rule: User asks about courses offered
+    steps:
+      - intent: college_courses
+      - action: utter_college_courses
+
+  - rule: Answer college location question
+    steps:
+      - intent: college_location
+      - action: utter_college_location
+
+  - rule: Answer industry collaborations question
+    steps:
+      - intent: industry_collaborations
+      - action: utter_industry_collaborations
+
+  - rule: Answer extracurricular activities question
+    steps:
+      - intent: extracurricular_activities
+      - action: utter_extracurricular_activities
+
+  - rule: Answer admission process question
+    steps:
+      - intent: admission_process
+      - action: utter_admission_process
+
+  - rule: Answer infrastructure question
+    steps:
+      - intent: infrastructure
+      - action: utter_infrastructure
+
+  - rule: Answer placement question
+    steps:
+      - intent: placement
+      - action: utter_placement
+
+  - rule: Answer research question
+    steps:
+      - intent: research
+      - action: utter_research
+
+  - rule: Answer achievements question
+    steps:
+      - intent: achievements
+      - action: utter_achievements
+
+  - rule: Answer library overview question
+    steps:
+      - intent: library_overview
+      - action: utter_library_overview
+
+  - rule: Respond to library timings
+    steps:
+      - intent: ask_library_timings
+      - action: utter_ask_library_timings
+
+  - rule: Respond to VTU syllabus query
+    steps:
+      - intent: ask_vtu_syllabus
+      - action: utter_ask_vtu_syllabus
+
+  - rule: Respond to VTU question paper query
+    steps:
+      - intent: ask_vtu_question_paper
+      - action: utter_ask_vtu_question_paper
+
+  - rule: Respond to hostel facilities query
+    steps:
+      - intent: ask_hostel_facilities
+      - action: utter_ask_hostel_facilities
+
+  - rule: Respond to user asking about hostel rules
+    steps:
+      - intent: hostel_rules_and_regulations
+      - action: utter_hostel_rules_and_regulations
+
+  - rule: Respond to user asking about hostel timings
+    steps:
+      - intent: hostel_timings
+      - action: utter_hostel_timings
+
+  - rule: Respond to user asking about fee structure
+    steps:
+      - intent: fee_structure
+      - action: utter_fee_structure
+
+  - rule: Respond to user asking about food options
+    steps:
+      - intent: food_options
+      - action: utter_food_options
+
+  - rule: Respond to user asking about Mech-Tech Garage
+    steps:
+      - intent: mech_tech_garage
+      - action: utter_mech_tech_garage
+
+  - rule: Respond to user asking about gym facilities
+    steps:
+      - intent: gym_facilities
+      - action: utter_gym_facilities
+
+  - rule: Respond to user asking about bus service
+    steps:
+      - intent: bus_service
+      - action: utter_bus_service
+
+  - rule: Respond to user asking about bus service rules
+    steps:
+      - intent: bus_service_rules
+      - action: utter_bus_service_rules
+
+  - rule: Respond to user asking about bus service changes
+    steps:
+      - intent: bus_service_changes
+      - action: utter_bus_service_changes
+
+  - rule: Respond to user asking about bus service refund
+    steps:
+      - intent: bus_service_refund
+      - action: utter_bus_service_refund
+
+  - rule: Respond to user asking about undergraduate courses
+    steps:
+      - intent: undergraduate_courses
+      - action: utter_undergraduate_courses
+
+  - rule: Respond to user asking about campus description
+    steps:
+      - intent: campus_description
+      - action: utter_campus_description
+
+  - rule: Respond to user asking about placement process
+    steps:
+      - intent: placement_process
+      - action: utter_placement_process
+
+  - rule: Respond to user asking about contact placement department
+    steps:
+      - intent: contact_placement_department
+      - action: utter_contact_placement_department
+
+  - rule: Respond to user asking about placement facilities
+    steps:
+      - intent: placement_facilities
+      - action: utter_placement_facilities
+
+  - rule: Respond to user asking about placement training
+    steps:
+      - intent: placement_training
+      - action: utter_placement_training
+
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Goodbye rule
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Answer about internship opportunities
+    steps:
+      - intent: internship_opportunities
+      - action: utter_internship_opportunities
+
+
+  - rule: Answer about faculty information
+    steps:
+      - intent: faculty_information
+      - action: utter_faculty_information
+
+  - rule: Answer about college ranking
+    steps:
+      - intent: college_ranking
+      - action: utter_college_ranking
+
+
+  - rule: Answer about MBA duration
+    steps:
+      - intent: mba_duration
+      - action: utter_mba_duration
+
+  - rule: Answer about lateral entry admission
+    steps:
+      - intent: lateral_entry_admission
+      - action: utter_lateral_entry_admission
+
+  - rule: Answer about research opportunities
+    steps:
+      - intent: research_opportunities
+      - action: utter_research_opportunities
+
+  - rule: Answer about scholarship application process
+    steps:
+      - intent: scholarship_application_process
+      - action: utter_scholarship_application_process
+
+  - rule: Answer about Wi-Fi facilities
+    steps:
+      - intent: wifi_facilities
+      - action: utter_wifi_facilities
+
+  - rule: Answer about alumni association
+    steps:
+      - intent: alumni_association
+      - action: utter_alumni_association
+
+  - rule: Answer about medical facilities
+    steps:
+      - intent: medical_facilities
+      - action: utter_medical_facilities
+
+  - rule: Answer about engineering fee structure
+    steps:
+      - intent: engineering_fee_structure
+      - action: utter_engineering_fee_structure
+
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Goodbye rule
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Answer about bot developer info
+    steps:
+      - intent: bot_developer_info
+      - action: utter_bot_developer_info
+
+  - rule: Answer about bot name
+    steps:
+      - intent: bot_name
+      - action: utter_bot_name
+
+  - rule: Answer about student clubs
+    steps:
+      - intent: student_clubs
+      - action: utter_student_clubs
+
+  - rule: Answer about SOSC club
+    steps:
+      - intent: sosc_club
+      - action: utter_sosc_club
+
+  - rule: Answer about Nihongo club
+    steps:
+      - intent: nihongo_club
+      - action: utter_nihongo_club
+
+  - rule: Answer about hostel accommodation
+    steps:
+      - intent: accommodation
+      - action: utter_accommodation
+
+  - rule: Answer about attendance policy
+    steps:
+      - intent: attendance_policy
+      - action: utter_attendance_policy
+
+  - rule: Answer about safety
+    steps:
+      - intent: safety
+      - action: utter_safety
+
+  - rule: Answer about funding opportunities
+    steps:
+      - intent: funding
+      - action: utter_funding
+
+
+  - rule: Handle Engineering Courses
+    steps:
+      - intent: engineering_courses
+      - action: utter_engineering_courses
+
+
+  - rule: Handle MBA Entrance Exam
+    steps:
+      - intent: mba_entrance_exam
+      - action: utter_mba_entrance_exam
+
+  - rule: Handle Engineering Placements
+    steps:
+      - intent: engineering_placements
+      - action: utter_engineering_placements
+
+  - rule: Handle Contact Placement Department
+    steps:
+      - intent: contact_placement_department
+      - action: utter_contact_placement_department
+
+  - rule: Handle Placement Facilities
+    steps:
+      - intent: placement_facilities
+      - action: utter_placement_facilities
+
+  - rule: Handle Placement Training
+    steps:
+      - intent: placement_training
+      - action: utter_placement_training
+
+  - rule: Handle Internships
+    steps:
+      - intent: internships
+      - action: utter_internships
+
+  - rule: Handle Career Guidance
+    steps:
+      - intent: career_guidance
+      - action: utter_career_guidance
+
+  - rule: Handle Pre-Placement Talks
+    steps:
+      - intent: pre_placement_talks
+      - action: utter_pre_placement_talks
+
+
+  - rule: Handle Mechanical Engineering Admission
+    steps:
+      - intent: mechanical_engineering_admission
+      - action: utter_mechanical_engineering_admission
+
+  - rule: Handle Information Science Engineering Admission
+    steps:
+      - intent: information_science_engineering_admission
+      - action: utter_information_science_engineering_admission
+
+  - rule: Handle Electronics Communication Engineering Admission
+    steps:
+      - intent: electronics_communication_engineering_admission
+      - action: utter_electronics_communication_engineering_admission
+
+  - rule: Handle CET Score Requirement
+    steps:
+      - intent: cet_score_requirement
+      - action: utter_cet_score_requirement
+
+  - rule: Handle MBA Placement Queries
+    steps:
+      - intent: mba_placement
+      - action: utter_mba_placement

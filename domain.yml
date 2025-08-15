@@ -1,0 +1,299 @@
+version: "3.1"
+intents:
+  - admission_requirements
+  - cse_admission_process
+  - aiml_admission_process
+  - mech_robotics_admission_process
+  - ece_admission_process
+  - ise_ds_admission_process
+  - management_quota_fees
+  - cet_admission_process
+  - comedk_admission_process
+  - required_documents
+  - nri_fees
+  - scholarships
+  - college_principal
+  - skill_learning
+  - college_courses
+  - college_location
+  - industry_collaborations
+  - extracurricular_activities
+  - admission_process
+  - infrastructure
+  - placement
+  - research
+  - achievements
+  - library_overview
+  - ask_library_timings
+  - ask_vtu_syllabus
+  - ask_vtu_question_paper
+  - ask_hostel_facilities
+  - hostel_rules_and_regulations
+  - hostel_timings
+  - fee_structure
+  - food_options
+  - mech_tech_garage
+  - gym_facilities
+  - bus_service
+  - bus_service_rules
+  - bus_service_changes
+  - bus_service_refund
+  - undergraduate_courses
+  - campus_description
+  - placement_process
+  - contact_placement_department
+  - placement_facilities
+  - placement_training
+  - internship_opportunities
+  - faculty_information
+  - college_ranking
+  - mba_duration
+  - lateral_entry_admission
+  - research_opportunities
+  - scholarship_application_process
+  - wifi_facilities
+  - alumni_association
+  - medical_facilities
+  - engineering_fee_structure
+  - greet
+  - how_are_you
+  - goodbye
+  - bot_developer_info
+  - bot_name
+  - student_clubs
+  - sosc_club
+  - nihongo_club
+  - accommodation
+  - attendance_policy
+  - safety
+  - funding
+  - engineering_courses
+  - mba_entrance_exam
+  - engineering_placements
+  - internships
+  - career_guidance
+  - pre_placement_talks
+  - mechanical_engineering_admission
+  - information_science_engineering_admission
+  - electronics_communication_engineering_admission
+  - cet_score_requirement
+  - mba_placement
+
+responses:
+  utter_admission_requirements:
+    - text: "The admission requirements vary by program. For undergraduate programs, a completed application, transcripts, and standardized test scores are required. For postgraduate programs, relevant undergraduate degrees and qualifying exam scores are needed."
+  
+  utter_cse_admission_process:
+    - text: "Admission to the Computer Science Engineering branch at Sahyadri is based on the KCET and COMED-K exam ranks. For KCET, the cutoff rank typically ranges between 7000-15000 (GM), while for COMED-K, the cutoff is around 3000-5000. Ensure you meet the eligibility criteria, including qualifying marks in relevant exams, and apply through the KCET official portal for KCET and the COMED-K official portal for COMED-K."
+
+  utter_aiml_admission_process:
+    - text: "Admission to the Artificial Intelligence and Machine Learning (AIML) branch at Sahyadri is based on the KCET and COMED-K exam ranks. For KCET, the cutoff rank typically ranges between 7000-19000 (GM), while for COMED-K, the cutoff is around 4000-6500. Ensure you meet the eligibility criteria, including qualifying marks in relevant exams, and apply through the KCET official portal for KCET and the COMED-K official portal for COMED-K."
+
+  utter_mech_robotics_admission_process:
+    - text: "Admission to the Mechanical & Robotics (Mech & Robotics) branches at Sahyadri is based on the KCET and COMED-K exam ranks. For KCET, the cutoff rank typically ranges between 15000-45000 (GM), while for COMED-K, the cutoff is around 7000-15000. Ensure you meet the eligibility criteria, including qualifying marks in relevant exams, and apply through the KCET official portal for KCET and the COMED-K official portal for COMED-K."
+
+  utter_ece_admission_process:
+    - text: "Admission to the Electronics and Communication Engineering (ECE) branch at Sahyadri is based on the KCET and COMED-K exam ranks. For KCET, the cutoff rank typically ranges between 11000-25000 (GM), while for COMED-K, the cutoff is around 2500-6000. Ensure you meet the eligibility criteria, including qualifying marks in relevant exams, and apply through the KCET official portal for KCET and the COMED-K official portal for COMED-K."
+
+  utter_ise_ds_admission_process:
+    - text: "Admission to the Information Science (ISE) and Data Science (DS) branch at Sahyadri is based on the KCET and COMED-K exam ranks. For KCET, the cutoff rank typically ranges between 7000-15000 (GM), while for COMED-K, the cutoff is around 7000-9000. Ensure you meet the eligibility criteria, including qualifying marks in relevant exams, and apply through the KCET official portal for KCET and the COMED-K official portal for COMED-K."
+
+  utter_management_quota_fees:
+    - text: "The tuition fees for management quota vary by branch. For instance, Computer Science & Engineering costs Rs. 3,30,000/- p.a, and Mechanical Engineering costs Rs. 1,50,000/- p.a. Additional fees like Placement & Training, Skill Lab, University-related fees, and miscellaneous fees are charged separately."
+  
+  utter_cet_admission_process:
+    - text: "Admission through CET is conducted by the Karnataka Examination Authority. Candidates take entrance exams in Physics, Chemistry, and Mathematics. Based on CET ranking, students select their preferred college during counseling. Visit <a href='http://kea.kar.nic.in'>http://kea.kar.nic.in</a> for more details."
+  
+  utter_comedk_admission_process:
+    - text: "Admission through Comed-K involves an entrance test conducted by the Consortium of Medical, Engineering, and Dental Colleges of Karnataka. After the test, students participate in centralized counseling to select their preferred college. Visit <a href='http://comedk.org'>http://comedk.org</a> for more information."
+  
+  utter_required_documents:
+    - text: "At the time of admission, candidates must submit all originals and relevant documents(Especially, SSLC, PUC/Diploma Marks Card), including the filled application form. For CET and Comed-K admissions, additional fees and placement-related charges apply. For management admissions, complete documents and application scrutiny are required."
+
+  utter_nri_fees:
+    - text: "For NRI students, the tuition fee is Rs. 9,00,000/- p.a for branches like Computer Science & Engineering, Information Science & Engineering, Electronics & Communication Engineering, and Mechanical Engineering. Additional fees for placement, skill lab, and other services are applicable."
+  
+  utter_scholarships:
+    - text: "Scholarships are available for economically backward and meritorious students. They are offered by various government bodies and private organizations. Students must apply with relevant documents, including a current year income certificate. Details will be posted on notice boards."
+  
+  utter_college_principal:
+    - text: "The Principal of the college is Dr. S. S. Injaganeri, holding a B.E., M.Tech., and Ph.D. from IIT Madras."
+
+
+  utter_skill_learning:
+    - text: "Sahyadri provides workspaces to enhance competencies in emerging technologies such as AI, ML, Embedded Systems Design, IoT, Industry 4.0, Robotics, and 3D Printing. The college also conducts annual Industry Connect Programs to upskill students. The campus features a 250-seater skill lab and a 100-seater GIG workspace supported by blue-chip companies."
+  
+  utter_college_courses:
+    - text: "Sahyadri College offers courses including undergraduate programs like B.E. in Computer Science, Information Science, Artificial Intelligence & Machine Learning(CSE), Data Science(CSE), Information Science, Electronics & Communication Engineering, Mechanical and Robotics(RA) with a total intake of 720 students. The college also offers postgraduate programs such as M.Tech, MBA with an intake of 180, and research programs for doctoral degrees."
+
+  utter_college_location:
+    - text: "Sahyadri College of Engineering & Management is located at Adyar, Mangalore, Karnataka, India. <br/><a href='https://maps.app.goo.gl/CcAJtA9rf736EoPr6'>Google-Map Link</a>"
+    
+
+  utter_industry_collaborations:
+    - text: "Sahyadri College has collaborations with various national and international universities and leading corporate and industrial partners. These collaborations help boost student innovation, research, certifications, internships, and hands-on experience in real-world settings."
+    
+  utter_extracurricular_activities:
+    - text: "Sahyadri College encourages a variety of extracurricular activities, including sports, cultural events, and technical competitions. Students participate in national and international events like SAE International Aero Design, SUPRA, BAJA, and Go-Kart racing, along with VTU sports and cultural activities."
+    
+  utter_admission_process:
+    - text: "The admission process at Sahyadri College is based on entrance exams such as KCET, COMEDK, and PGCET for undergraduate and postgraduate programs. The eligibility criteria vary for each course, and students must meet the required academic qualifications. Admission is also based on merit and counseling."
+    
+  utter_infrastructure:
+    - text: "Sahyadri College boasts state-of-the-art infrastructure with modern laboratories, seminar halls, a library, sports facilities, and an aesthetically designed food court. The campus is equipped with all necessary amenities for both academic and extracurricular activities."
+    
+  utter_placement:
+    - text: "Sahyadri College has an excellent placement record with top companies visiting the campus for recruitment. The placement opportunities are enhanced by the college's industry collaborations, and students have been placed in companies like OLA, TCS, Wipro, and many more, offering attractive salary packages."
+    
+  utter_research:
+    - text: "Sahyadri College encourages research activities with multiple research programs at the M.Tech and Ph.D. levels. The college has research centers that focus on various engineering and management disciplines, fostering an environment for innovation and academic excellence."
+    
+  utter_achievements:
+    - text: "Sahyadri College has achieved numerous milestones in academics, sports, and research. Some notable achievements include top placements, awards at SAE International events, the success of student-driven startups, and accolades in national and international competitions. The college also consistently ranks among the top engineering and management institutions in India."
+ 
+  utter_library_overview:
+    - text: "The Library is the hub of educational activities in the college. It consists of a central library and departmental libraries, which support educational needs, research, and collaborative activities. The state-of-the-art library spans over 1050 square meters and can accommodate 400 students. It is equipped with Wi-Fi, security systems, CCTV, and uses automation software, Libsys. The collection includes over 45,000 volumes, 8,000+ titles, 90+ printed journals, and over 13,000 e-journals/e-books. The library is a member of VTU Consortium, DELNET, and NDLI."
+  
+  utter_ask_library_timings:
+    - text: "The library is open on weekdays from 9:00 AM to 6:00 PM and is closed on weekends and public holidays. Specific timings may vary during exam periods or holidays."
+  
+  utter_ask_vtu_syllabus:
+    - text: "Yes, the VTU syllabus is available through the library's digital resources. Students can access it using the web-enabled OPAC service."
+  utter_ask_vtu_question_paper:
+    - text: "Yes, VTU question papers are available in the library's digital resources and can be accessed through the web-enabled OPAC service."
+  utter_ask_hostel_facilities:
+    - text: "The college campus has separate hostels for boys and girls, managed by the Hostel Committee. The committee is headed by the Chief Warden, supported by In-charge wardens and resident wardens for room allotment, discipline, and maintenance. The hostel staff includes caretakers and maintenance personnel."
+
+  utter_hostel_rules_and_regulations:
+    - text: "The hostel follows strict discipline, with rules regarding room allotment, maintenance, and overall conduct. Resident wardens are responsible for managing daily activities. Additional rules include no outside visitors without prior permission, maintaining cleanliness, and following hostel timings for entry and exit."
+  utter_hostel_timings:
+    - text: "Hostel timings are set by the Hostel Committee, with strict entry and exit schedules for students. These timings are communicated to students upon their arrival at the hostel."
+
+  utter_fee_structure:
+    - text: "The fee structure for the hostel is as follows: 3 & 4-sharing rooms: Rs. 90,000/-; Twin-sharing rooms: Rs. 1,00,000/-; Twin-sharing rooms with attached bathrooms: Rs. 1,10,000/-; Single occupancy rooms: Rs. 1,10,000/-; Single occupancy rooms with attached bathrooms: Rs. 1,20,000/-. Fees include accommodation and mess charges, payable in two installments."
+   
+  utter_food_options:
+    - text: "The campus has a spacious, aesthetically built food court managed by experienced chefs. It offers a variety of delicious and hygienic South Indian food, vegetarian and non-vegetarian options, chats, and fresh fruit juice."
+  utter_mech_tech_garage:
+    - text: "The Mech-Tech Garage is a state-of-the-art infrastructure lab designed for mechanical engineering students. It offers a conducive atmosphere for students to excel in the automobile field, and encourages participation in national and international events to gain vast exposure."
+  utter_gym_facilities:
+    - text: "The campus offers both indoor and outdoor gym facilities. The outdoor fitness equipment provides students with comparable fitness benefits, allowing them to exercise at their own pace and schedule, without any membership fees."
+  utter_bus_service:
+    - text: "Sahyadri College runs its own transport fleet to cater to students commuting daily. The buses operate on all working days, with different routes serving the campus. Students must inform the transport wing or admission counter about their requirement for the bus service during admission and at the beginning of each semester."
+  utter_bus_service_rules:
+    - text: "Students must pay the annual or periodic bus fare in advance to avail the service. A bus pass will be issued upon payment, which students must carry while traveling. Seat booking is not permitted, and any misconduct or quarrels will be dealt with seriously. Students should respect fellow passengers and avoid causing disturbances. Misuse of the bus, including damage to accessories, will lead to penalties."
+  utter_bus_service_changes:
+    - text: "If a student changes their pick-up point or place of residence, they must inform the transport in charge or the bus driver in advance, to ensure the necessary adjustments are made to the route."
+  utter_bus_service_refund:
+    - text: "If a student wishes to discontinue the bus service halfway through the semester, they will not be entitled to a refund for the unused period."
+  utter_undergraduate_courses:
+    - text: "Sahyadri College offers the following undergraduate courses in Bachelor of Engineering (BE):<br/>1. Computer Science & Engineering (240 intake)<br/>2. Computer Science & Engineering (Artificial Intelligence & Machine Learning) (120 intake)<br/>3. Computer Science & Engineering (Data Science) (60 intake)<br/>4. Electronics & Communication Engineering (120 intake)<br/>5. Information Science & Engineering (120 intake)<br/>6. Mechanical Engineering (60 intake)<br/>7. Robotics & Automation (60 intake)"
+  utter_campus_description:
+    - text: "The Sahyadri College campus is an eco-friendly, picturesque 30-acre site located on the banks of the River Nethravathi, adjacent to the Mangalore-Bangalore National Highway. Situated 7 km from the port city of Mangalore, the campus is well-connected by road, air, and rail to major cities of India. The name 'Sahyadri' refers to the Western Ghats, as the campus is surrounded by green hills and the river. With a built-up area of 4.00 lakh sq. ft., the campus includes spacious classrooms with good ventilation and audio-video facilities, well-equipped laboratories, a large library, four seminar halls, an auditorium with modern acoustics, a food court, and a sports ground with a 400-meter athletic track."
+  utter_placement_process:
+    - text: "Sahyadri College has a dedicated placement cell that facilitates recruitment for students. Over 250 companies visit the campus every year for recruitment. Some of the highest salary packages offered are by companies like Microsoft (40 LPA), Adobe (27.7 LPA), Cohesity (24.5 LPA), Amazon (16 LPA), and others. The average salary package is 4 LPA. The placement process is enhanced by regular aptitude training, soft skills programs, and internship opportunities. Students also benefit from industry interactions organized weekly to groom them for the corporate world."
+  
+  utter_contact_placement_department:
+    - text: "The contact person for placements at Sahyadri College is Prof. Rashmi Bhandary, the Dean of Career Guidance, Training & Placement. You can reach her at +91 99864 75517, or by email at rb.placement@sahyadri.edu.in. The placement office can also be contacted via <a href='placements@sahyadri.edu.in'>placements@sahyadri.edu.in</a>"
+  
+  utter_placement_training:
+    - text: "Sahyadri College offers various training programs to help students prepare for placements, including aptitude training, soft skills enhancement, and value-added courses. In-house skilled professionals regularly conduct these training sessions to enhance students' employability."
+
+  utter_internship_opportunities:
+    - text: "Sahyadri College provides internship opportunities for students through programs with companies like Mahindra & Mahindra, MRPL, MCF, and others. These internships help students gain practical experience and prepare them for the corporate world."
+  
+
+  utter_faculty_information:
+    - text: "The faculty members at Sahyadri College are experienced and highly qualified, with many holding doctoral degrees and specialized certifications. For detailed information on the faculty, visit: <br/><a href='https://www.sahyadri.edu.in/teaching-faculty'>https://www.sahyadri.edu.in/teaching-faculty</a>"
+  
+  utter_college_ranking:
+    - text: "Sahyadri College of Engineering & Management is consistently ranked among the top engineering colleges in Karnataka. For the latest rankings, please visit the official website."
+
+  utter_mba_duration:
+    - text: "The MBA program at Sahyadri is a two-year full-time course, designed to equip students with the skills necessary for leadership roles in various industries."
+
+  utter_lateral_entry_admission:
+    - text: "Lateral entry admissions are available for diploma holders who wish to join the second year of an engineering program. Candidates must meet the eligibility criteria and appear for the relevant entrance tests as per the guidelines."
+
+  utter_research_opportunities:
+    - text: "Yes, Sahyadri College offers various research opportunities in areas such as engineering, management, and applied sciences. Students are encouraged to participate in research projects under the guidance of experienced faculty members."
+
+  utter_scholarship_application_process:
+    - text: "To apply for scholarships, you need to fill out the scholarship application form available on the official website. You will be required to provide relevant documents, including academic performance and financial need details."
+
+  utter_wifi_facilities:
+    - text: "The college provides free Wi-Fi access to students across the campus, ensuring that they have continuous internet connectivity for academic and research purposes."
+
+  utter_alumni_association:
+    - text: "The college has a strong alumni association that keeps graduates connected. The association organizes events and provides career support to current students."
+
+  utter_medical_facilities:
+    - text: "Sahyadri College provides basic medical facilities on campus, including a health center with trained medical professionals available for emergencies and routine care."
+
+  utter_engineering_fee_structure:
+    - text: "The fee structure for engineering programs varies depending on the course and category of the student. For specific fee details, you can visit the official website or contact the admissions office directly."
+
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_how_are_you:
+    - text: "I'm doing great, thank you! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Let me know if you need more information!"
+  utter_bot_developer_info:
+    - text: "I was developed by the team at Sahyadri College using natural language processing technologies."
+  utter_bot_name:
+    - text: "I am the Sahyadri Admission Enquiry Bot, here to assist you with any questions you have about the college."
+
+  utter_student_clubs:
+    - text: "Sahyadri College has a vibrant student life with clubs catering to various interests. The Sahyadri Open Source Community (SOSC) focuses on technology and open-source projects. The Challengers Club organizes leadership and entrepreneurial events. For creative minds, there's the MegaMinds Club and the English Club, which encourage literary and artistic pursuits. The Floatonomers Club explores robotics and aerodynamics, while the Sahyadri Nihongo Club brings Japanese language and culture to students. To join a club, students can attend the annual Club Orientation or contact the club coordinators directly."
+  utter_sosc_club:
+    - text: "The Sahyadri Open Source Community (SOSC) promotes open-source technologies. Students collaborate on projects, attend workshops, and participate in hackathons. No specific qualifications are needed—just an interest in coding and technology!"
+  utter_nihongo_club:
+    - text: "The Sahyadri Nihongo Club is for students interested in learning Japanese language and culture. Activities include language lessons, cultural workshops, and exchange programs. Everyone is welcome—no prior knowledge of Japanese is required!"
+  utter_accommodation:
+    - text: "Yes, we provide on-campus hostel facilities with separate accommodations for boys and girls. Amenities include Wi-Fi, a mess with healthy meals, and recreational areas. Contact the hostel office for fees and availability."
+  
+  utter_attendance_policy:
+    - text: "Sahyadri College requires 85% attendance (minimum of 75% in case of health issues) in each subject for eligibility in exams. Exceptions may be granted for valid reasons with prior approval."
+  utter_safety:
+    - text: "Sahyadri College has 24/7 security with trained personnel, CCTV surveillance, and strict access controls to ensure student safety."
+  utter_funding:
+    - text: "Students can apply for funding through our research and innovation cell. External grants and industry collaborations are also available for eligible projects."
+
+  utter_engineering_courses:
+    - text: "The college offers various engineering programs, including Mechanical Engineering, Information Science & Engineering, Electronics & Communication Engineering, and Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning."
+
+
+  utter_mba_entrance_exam:
+    - text: "Yes, an entrance test is required for MBA admission. The test is followed by a personal interview, and selection is based on the combined performance in both."
+
+
+  utter_engineering_placements:
+    - text: "Sahyadri College's placement process for engineering students is well-organized and effective. Every year, over 200 companies visit for recruitment, offering positions such as software developer, data analyst, design engineer, and project manager. Leading recruiters include Wipro, TCS, Infosys, Cognizant, and IBM, with the highest package at 40 LPA and the average package around 4 LPA. The industries that recruit students span IT, core engineering, manufacturing, and electronics."
+
+  utter_placement_facilities:
+    - text: "Sahyadri College offers excellent facilities for engineering placements, including over 500 computers for online tests, an 800-seat auditorium, and rooms for group discussions, interviews, and written tests. The campus has wireless internet, projectors, and technician support for pre-placement talks."
+
+  utter_internships:
+    - text: "Sahyadri College actively facilitates internships for engineering students through its placement cell. Internships are offered by companies like Infosys, Wipro, and TCS in fields such as software development, embedded systems, and product design, providing practical exposure to real-world challenges."
+
+  utter_career_guidance:
+    - text: "The placement cell at Sahyadri provides personalized career guidance to engineering students, helping them identify career paths, set goals, and prepare for job interviews. Regular counseling sessions and mentorship programs ensure students are industry-ready."
+
+  utter_pre_placement_talks:
+    - text: "Sahyadri organizes pre-placement talks for engineering students, allowing companies to introduce their work culture, job roles, and expectations. These sessions help students understand the company's requirements and prepare for placement rounds effectively."
+
+  utter_mechanical_engineering_admission:
+    - text: "The admission to Mechanical Engineering at Sahyadri is based on both KCET and COMED-K rankings. For KCET, the cutoff rank is generally between 7000-25000 (GM), while for COMED-K, it ranges from 3000-6000. The final admission depends on seat availability, category and merit, but applicants with lower ranks may still be eligible based on merit adjustments and available seats."
+
+  utter_information_science_engineering_admission:
+    - text: "Information Science Engineering admissions at Sahyadri follow the KCET and COMED-K guidelines. The KCET cutoff for Information Science Engineering is generally around 9000-18000(GM), while the COMED-K cutoff is between 5000-8000. Admission is based on exam scores, eligibility, category and seat availability."
+
+  utter_electronics_communication_engineering_admission:
+    - text: "Electronics and Communication Engineering at Sahyadri follows the KCET and COMED-K rankings. The KCET cutoff is typically in the range of 10000-35000 (GM), and the COMED-K cutoff is around 4000-7000. Candidates must meet the eligibility criteria and complete the admission formalities through the official portal."
+
+  utter_cet_score_requirement:
+    - text: "The minimum CET score required for admission depends on the course and the category of the candidate. The details will be published on the official website after the CET results are announced."
+  
+  utter_mba_placement:
+    - text: "Sahyadri College's MBA placement process provides ample opportunities for students to secure positions in various domains such as marketing, finance, human resources, and operations. Over 100 companies visit the campus for recruitment, with top recruiters including HDFC Bank, ICICI Bank, Tata Consultancy Services (TCS), Wipro, and Accenture. The highest salary package offered is 12 LPA, and the average salary package is around 5 LPA."
