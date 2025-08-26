@@ -1,4 +1,4 @@
-# 🎓 CampusConnect – Admission Enquiry Chatbot
+# 🎓 CampusConnect – Admission Enquiry Rasabot
 
 An AI-powered chatbot built using the **Rasa Framework** to assist with **college admission-related enquiries**.
 The bot answers queries on admission processes, courses, fees, scholarships, hostel facilities, placements, and more.
